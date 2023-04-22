@@ -1,0 +1,59 @@
+      html,body {
+        position: relative;
+        margin:0;
+        color: #b4cbfd;
+        background-color: rgb(12,13,16);
+        font-family: sans-serif;
+      }
+      #pmb {
+        padding: 10px
+      }
+      #pmb>h1 {
+        padding-left: 25px;
+        border-bottom: 4px solid rgb(84,125,217);
+      }
+      .card {
+        margin: 50px auto;
+        padding: 7px 5px 20px 5px;
+        border: 1px solid rgb(43,45,121);
+        border-top: none;
+        border-left: none;
+        border-radius: 10px;
+        background-image: linear-gradient(135deg,rgb(26,28,70), rgb(9,10,10));
+      }
+      .card>h2 {
+        padding-bottom: 15px;
+        text-align: center;
+        color: rgb(180,233,253);
+        border-bottom: .5px solid rgb(180,233,253);
+      }
+      .card>p {
+        padding-left: 15px;
+      }
+      .card a {
+        color: rgb(180,233,253);
+      }
+      .works>ul {
+        padding-left: 20px;
+      }
+      .works>ul>li {
+        margin-bottom: 20px;
+        padding-bottom: 30px;
+        list-style-type: none;
+        border-bottom: .5px dotted rgb(83,87,202);
+      }
+      .contact {
+        display: flex;
+      }
+      .contact>a {
+        flex: 1;
+        margin: 5px;
+      }
+      .contact svg {
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+        border-radius: 5px;
+        color: #b4cbfd;
+        background: rgb(57,61,144);
+      }
